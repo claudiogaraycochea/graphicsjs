@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Image, Segment } from 'semantic-ui-react';
+import SimpleChart from '../graphs/simpleChart/SimpleChart';
 
 class WidgetTop extends Component {
   constructor(props) {
@@ -14,22 +15,22 @@ class WidgetTop extends Component {
       <Grid stackable stretched columns={4}>
         <Grid.Column>
           <Segment>
-            <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
+            <SimpleChart />
           </Segment>
         </Grid.Column>
         <Grid.Column>
           <Segment>
-            <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
+            <SimpleChart />
           </Segment>
         </Grid.Column>
         <Grid.Column>
           <Segment>
-            <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
+            <SimpleChart />
           </Segment>
         </Grid.Column>
         <Grid.Column>
           <Segment>
-            <Image src='https://react.semantic-ui.com/images/wireframe/paragraph.png' />
+            <SimpleChart />
           </Segment>
         </Grid.Column>
       </Grid>

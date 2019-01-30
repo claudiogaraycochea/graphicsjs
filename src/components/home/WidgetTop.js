@@ -13,26 +13,30 @@ class WidgetTop extends Component {
   render() {
     return (
       <Grid stackable stretched columns={4}>
-        <Grid.Column>
-          <Segment>
-            <SimpleChart />
-          </Segment>
-        </Grid.Column>
-        <Grid.Column>
-          <Segment>
-            <SimpleChart />
-          </Segment>
-        </Grid.Column>
-        <Grid.Column>
-          <Segment>
-            <SimpleChart />
-          </Segment>
-        </Grid.Column>
-        <Grid.Column>
-          <Segment>
-            <SimpleChart />
-          </Segment>
-        </Grid.Column>
+        <SimpleChart 
+          title={1700}
+          description={`Unique Candidates`}
+          datetime= {`Jan 3. 2019 - Mar 6. 2019 | 9:00 AM - 12:00 PM`}
+          color={`blue`} 
+        />
+        <SimpleChart 
+          title={1700}
+          description={`Unique Candidates`}
+          datetime= {`Jan 3. 2019 - Mar 6. 2019 | 9:00 AM - 12:00 PM`}
+          color={`orange`} 
+        />
+        <SimpleChart 
+          title={1700}
+          description={`Unique Candidates`}
+          datetime= {`Jan 3. 2019 - Mar 6. 2019 | 9:00 AM - 12:00 PM`}
+          color={`highlight-blue`} 
+        />
+        <SimpleChart
+          title={1700}
+          description={`Unique Candidates`}
+          datetime= {`Jan 3. 2019 - Mar 6. 2019 | 9:00 AM - 12:00 PM`}
+          color={`green`} 
+        />
       </Grid>
     );
   }

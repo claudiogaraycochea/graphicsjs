@@ -1,0 +1,38 @@
+.simple-chart {
+    /*background: url(./../../../../assets/bg.jpg) no-repeat center center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;*/
+    background: #5489b0 !important;
+    color: #ffffff;
+}
+
+.simple-chart.blue {
+    background: #5489b0 !important;
+}
+
+.simple-chart.orange {
+    background: #e49c58 !important;
+}
+
+.simple-chart.highlight-blue {
+    background: #40addd !important;
+}
+
+.simple-chart.green {
+    background: #21b559 !important;
+}
+
+.simple-chart .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.simple-chart .description {
+    font-size: 16px;
+}
+
+.simple-chart .datetime {
+    font-size: 11px;
+}

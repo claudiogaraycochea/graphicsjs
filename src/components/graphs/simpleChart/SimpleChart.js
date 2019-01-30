@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Grid, Segment } from 'semantic-ui-react';
+import './SimpleChart.css';
 
 class SimpleChart extends Component {
     constructor(props) {
@@ -11,11 +13,13 @@ class SimpleChart extends Component {
 
     render() {
         return (
-            <div>
-                <div>1700</div>
-                <div>Unique candidates</div>
-                <div>Datetime</div>
-            </div>
+            <Grid.Column>
+                <Segment className={`simple-chart ${this.props.color}`}>
+                    <div className="title">{this.props.title}</div>
+                    <div className="description">{this.props.description}</div>
+                    <div className="datetime">{this.props.datetime}</div>
+                </Segment>                
+            </Grid.Column>
         );
     }
 }

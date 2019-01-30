@@ -1,0 +1,20 @@
+.wrapper-sessions-by-devices {
+}
+
+.wrapper-sessions-by-devices .wrapper-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.wrapper-sessions-by-devices .wrapper-item .title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.wrapper-sessions-by-devices .wrapper-item .image {
+    width: 160px;
+}
+

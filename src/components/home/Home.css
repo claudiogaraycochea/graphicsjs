@@ -1,0 +1,15 @@
+.main {
+    padding: 40px;
+}
+
+.wrapper-box {
+    padding: 40px;
+    border: 1px solid red;
+    width: 160px;
+}
+
+.wrapper-box.small{
+    padding: 40px;
+    border: 1px solid red;
+    width: 140px;
+}
